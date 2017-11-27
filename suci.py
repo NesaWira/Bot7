@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EnZgGjZqBaw8sVRBHbRe.uHwIvq3v1iyKQZqnNrhKFG.clRy8nlbIQhxuMTZGY9e4nIB/Nb9GBmKNekBf2aTyZI="
 cl.loginResult()
 
 #cl = LINETCR.LINE()
@@ -102,8 +102,8 @@ KAC=[cl]
 #KAC=[cl]AC=[cl,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,k1,k2,k3,k4,k5,k6,k6,k8,k9,w1,w2,w3,w4,w5,w6,w7,w8,w9,l1,l2,l3,l4,l5]
 mid = cl.getProfile().mid
 Bots = [mid,"u1f41296217e740650e0448b96851a3e2"]
-admsa = "u1f41296217e740650e0448b96851a3e2"
-admin = "u1f41296217e740650e0448b96851a3e2"
+admsa = "ub76a0153a283da9a1443dfb043181335"
+admin = "ub76a0153a283da9a1443dfb043181335"
 
 wait = {
     'contact':False,
@@ -221,7 +221,7 @@ def bot(op):
             if msg.contentType == 16:
                 url = msg.contentMetadata["postEndUrl"]
                 cl.like(url[25:58], url[66:], likeType=1001)
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.contentType == 13:
             	if wait["ricoinvite"] == True:
