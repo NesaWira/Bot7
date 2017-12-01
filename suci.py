@@ -101,9 +101,9 @@ helo=""
 KAC=[cl]
 #KAC=[cl]AC=[cl,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,k1,k2,k3,k4,k5,k6,k6,k8,k9,w1,w2,w3,w4,w5,w6,w7,w8,w9,l1,l2,l3,l4,l5]
 mid = cl.getProfile().mid
-Bots = [mid,"u1f41296217e740650e0448b96851a3e2"]
-admsa = "ub76a0153a283da9a1443dfb043181335"
-admin = "ub76a0153a283da9a1443dfb043181335"
+Bots = [mid,"u7923d62fb702924c3d1113e219530eb4"]
+admsa = "u0710a42a75e0a476ad687639db8c069c"
+admin = "u0710a42a75e0a476ad687639db8c069c"
 
 wait = {
     'contact':False,
